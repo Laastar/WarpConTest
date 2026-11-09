@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+  <title></title>
+</head>
+<body>
+  <!--Navbar-->
+  <header>
+    <nav class="navbar sm:navbar-expand sticky-bottom bg-1 fg-2">
+      <div class="container-fluid">
+        <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+        <dialog class="drawer drawer-start" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+          <div class="drawer-header">
+            <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+          </div>
+          <div class="drawer-body">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Games</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Schedule</a>
+              </li>
+            </ul>
+          </div>
+        </dialog>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!--Main Banner-->
+    <!--<div class="container-fluid" style="background-repeat: no-repeat; background-size: contain; background-position: center center; background-image: url(IMG/banner37.png); max-height: 100vh;">-->
+      <div class="container-fluid">
+        <img class="img-fluid" src="./IMG/banner37.png" alt="">
+      </div>
+      
+      <!--<div class="container-fluid d-flex justify-content-center align-items-center vh-100">
+        <h1 class="text-center">
+          <br><br><br><br>
+          January 30th - February 1st 2026
+        </h1>
+      </div>-->
+    <!--</div>-->
+    <!--Types of games-->
+    <div class="container-fluid vh-50">
+      <br><br><br><br><br>
+      <div class="row">
+        <div class="col d-none sm:d-none md:d-block"></div>
+        <div class="col">
+          <div class="card border-0">
+            <h4 class="card-title text-center">RPG's</h4>
+            <span class="text-center">
+              <img class="avatar" style="--bs-avatar-size: 8rem;" src="IMG/Avatars/ttrpgs.jpg" alt="mdo">
+            </span>
+            <p class="card-text overflow-visible text-center">
+              Many RPGs on Friday, Saturday and Sunday.
+              <a href="https://forms.gle/5SYcAX6aRkjeV5oG7">
+                Please sign up for RPG Submissions!
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <h4 class="card-title text-center">CCG's</h4>
+            <span class="text-center">
+              <img class="avatar" style="--bs-avatar-size: 8rem;" src="IMG/Avatars/ccgs.jpg" alt="mdo">
+            </span>
+            <p class="card-text overflow-visible">
+              Many RPGs on Friday, Saturday and Sunday. Please sign up for RPG Submissions!
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <h4 class="card-title text-center">Larps</h4>
+            <span class="text-center">
+              <img class="avatar" style="--bs-avatar-size: 8rem;" src="IMG/Avatars/larps.jpg" alt="mdo">
+            </span>
+            <p class="card-text overflow-visible">
+              Many RPGs on Friday, Saturday and Sunday. Please sign up for RPG Submissions!
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <h4 class="card-title text-center">Wargames</h4>
+            <span class="text-center">
+              <img class="avatar" style="--bs-avatar-size: 8rem;" src="IMG/Avatars/wargames.jpg" alt="mdo">
+            </span>
+            <p class="card-text overflow-visible">
+              Many RPGs on Friday, Saturday and Sunday. Please sign up for RPG Submissions!
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <h4 class="card-title text-center">Boardgames</h4>
+            <span class="text-center">
+              <img class="avatar" style="--bs-avatar-size: 8rem;" src="IMG/Avatars/boardgames.jpg" alt="mdo">
+            </span>
+            <p class="card-text overflow-visible">
+              Many RPGs on Friday, Saturday and Sunday. Please sign up for RPG Submissions!
+            </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0">
+            <h4 class="card-title text-center">Charity</h4>
+            <span class="text-center">
+              <img class="avatar" style="--bs-avatar-size: 8rem;" src="IMG/Avatars/charity.jpg" alt="mdo">
+            </span>
+            <p class="card-text overflow-visible">
+              Many RPGs on Friday, Saturday and Sunday. Please sign up for RPG Submissions!
+            </p>
+          </div>
+        </div>
+        <div class="col d-none sm:d-none md:d-block"></div>
+      </div>
+      <br><br><br><br><br>
+    </div>
+    <!--Main Information-->
+    <div class="container-fluid vh-50 bg-success">
+      <br><br><br>
+      <div class="row">
+        <div class="col d-none sm:d-none md:d-block"></div>
+        <div class="col">
+          <div class="card bg-transparent border-0">
+            <h1 class="card-title text-center">350+</h1>
+            <br>
+            <div class="divide-y">
+              <h4 class="card-title text-center">gamers</h4>
+              <h4 class="card-title text-center">from anywhere</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-transparent border-0">
+            <div class="divide-y "></div>
+            <h1 class="card-title text-center">48+</h1>
+            <br>
+            <div class="divide-y">
+              <h4 class="card-title text-center">hours</h4>
+              <h4 class="card-title text-center">of fun games</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card bg-transparent border-0">
+            <h1 class="card-title text-center">12</h1>
+            <br>
+            <div class="divide-y">
+              <h4 class="card-title text-center">rooms booked</h4>
+              <h4 class="card-title text-center">packed full of games</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col d-none sm:d-none md:d-block"></div>
+      </div>
+      <br><br><br>
+    </div>
+    <!--Main Venue-->
+    <div class="container-fluid vh-50">
+      <br><br><br>
+      <div class="text-center">
+        <h1>Venue</h1>
+      </div>
+      <br>
+      <div class="row g-0">
+        <div class="col-12 sm:col-8">
+          <div style="height: 50vh;">
+            <img style="max-height: 50vh; height: 100%; width: 100%; object-fit: cover;" src="IMG/Venue/stud_centre.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-12 sm:col-4">
+          <div class="row g-0">
+            <div class="col-6 sm:col-12">
+              <div style="height: 15vh;">
+                <img style="max-height: 15vh; height: 100%; width: 100%; object-fit: cover;" src="IMG/Venue/dev_hall.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-6 sm:col-12 bg-accent">
+              <div style="max-height: 20vh;">
+                <div class="text-start" style="padding-left: 5%;">
+                  <p style="font-size: clamp(.5rem, 2.5vw, 1rem);">
+                    <br> UCC Campus
+                  </p>
+                  <p style="font-size: clamp(.5rem, 2vw, 1rem);">
+                    12 rooms <br>
+                    Devere Hall - Reception & Trader Hall <br>
+                    Located upstairs in Student Centre <br>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 sm:col-12">
+              <div style="max-height: 15vh;">
+                <img style="max-height: 15vh; height: 100%; width: 100%; object-fit: cover;" src="IMG/Venue/newbar.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-6 sm:col-12 d-block sm:d-none">
+              <div style="max-height: 15vh;">
+                <img style="max-height: 15vh; height: 100%; width: 100%; object-fit: cover;" src="IMG/Venue/orb.jpg" alt="">
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+      <br><br><br>
+    </div>
+    <!--Main Sponsor-->
+    <div class="container-fluid vh-50">
+      <br><br><br>
+      <div class="text-center">
+        <h1>Sponsored by Chaosium</h1>
+        <br>
+        <span class="text-center">
+          <img class="avatar" style="--bs-avatar-size: 8rem;" src="IMG/Sponsors/chaosium.png" alt="mdo">
+        </span>
+      </div>
+      <br><br><br>
+    </div>
+  </div>
+  <!--Staff Form-->
+  <div class="container-fluid vh-50">
+    <br><br><br>
+    <div class="text-center">
+      <h1>Staff</h1>
+      <br>
+    </div>
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col">
+        <div class="text-center">
+          <h2>Staff at Warpcon help ensure events run smoothly, and are a vital part of the Warpcon team.</h2>
+          <br>
+          <h4>Staff are volunteers, and are not paid for their work, however; they do gain access to the event for free and will receive an exclusive Staff Warpcon T-Shirt. Staff are also eligible for complementary lunch on days they are working.</h4>
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col">
+        <div class="text-center">
+          <br>
+          <a href="#">
+            <button type="button" class="btn-solid theme-accent">Staff Form</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+    <br><br><br>
+  </div>
+  <!--Traders Form-->
+  <div class="container-fluid vh-50">
+    <br><br><br>
+    <div class="text-center">
+      <h1>Traders</h1>
+      <br>
+    </div>
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col">
+        <div class="text-center">
+          <h2>Traders at Warpcon offer a range of goods to attendees</h2>
+          <br>
+          <h4>Traders generally sell items related to events run at Warpcon. If you want to sign up to be a trader at Warpcon, sign up below!</h4>
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col">
+        <div class="text-center">
+          <br>
+          <a href="https://forms.gle/3gXfWrDoDw7W1kh17" target="_blank">
+            <button type="button" class="btn-solid theme-accent">Trader Form</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+    <br><br><br>
+  </div>
+  <!--Tickets--
+  <div class="container-fluid vh-50">
+    <br><br><br>
+    <div class="text-center">
+      <h1>Pricetable</h1>
+      <br>
+    </div>
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col">
+        <div class="text-center">
+          <h2>Single-Day tickets can be bought at reception on the day</h2>
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col">
+        <div class="text-center">
+          <br>
+          <a href="https://forms.gle/3gXfWrDoDw7W1kh17" target="_blank">
+            <button type="button" class="btn-solid theme-accent">Trader Form</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-2"></div>
+    </div>
+    <br><br><br>
+  </div>-->
+</main>
+<!--Footer-->
+<footer>
+  <div class="container-fluid vh-50" style="background-color: blanchedalmond; color: black;">
+    <br><br><br>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col">
+        <div class="text-center">
+          <h2>Links</h2>
+          <br>
+          <h4>
+            <a href="https://facebook.com/WARPCON" target="_blank">Facebook</a>
+          </h4>
+          <br>
+          <h4>
+            <a href="https://instagram.com/warpconucc" target="_blank">Instagram</a>
+          </h4>
+        </div>
+      </div>
+      <div class="col">
+        <div class="text-center">
+          <h2>Contacts</h2>
+          <br>
+          <h4>
+            <a href="mailto:warpcon@uccsocieties.ie" target="_blank">warpcon@uccsocieties.ie</a>
+          </h4>
+          <br>
+          <h4>
+            <a href="mailto:warpconrpgs@uccsocieties.ie" target="_blank">warpconrpgs@uccsocieties.ie</a>
+          </h4>
+          <br>
+          <h4>
+            <a href="mailto:warpconccgs@uccsocieties.ie" target="_blank">warpconccgs@uccsocieties.ie</a>
+          </h4>
+          <br>
+          <h4>
+            <a href="mailto:warpcontrade@uccsocieties.ie" target="_blank">warpcontrade@uccsocieties.ie</a>
+          </h4>
+        </div>
+      </div>
+      <div class="col">
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <br><br><br>
+  </div>
+</footer>
+</body>
+
+<script>
+  
+</script>
+</html>
